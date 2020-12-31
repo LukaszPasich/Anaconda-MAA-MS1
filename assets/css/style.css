@@ -42,6 +42,15 @@ ul {
     padding-bottom: 100px;
 }
 
+.padding-bottom-fifty {
+    padding-bottom: 50px;
+}
+
+.side-padding-zero {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .body-text-center {
     width: 100%;
     font-size: 16px;
@@ -49,6 +58,15 @@ ul {
 	font-weight: 100;
     color: #fff;
     text-align: center;
+}
+
+.body-text-left {
+    width: 100%;
+    font-size: 16px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+    color: #fff;
+    text-align: left;
 }
 
 /*-------------------- Colors --------------------*/
@@ -250,7 +268,7 @@ ul {
 	border: none;
 	border-radius: 25px;
 	background-color: #f7243c;
-	padding: 10px 40px;
+	padding: 10px 35px;
 	-webkit-transition: background-color 0.5s ease;
   	-moz-transition: background-color 0.5s ease;
  	-o-transition: background-color 0.5s ease;
