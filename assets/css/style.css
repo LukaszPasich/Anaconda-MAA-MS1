@@ -38,6 +38,19 @@ ul {
     padding-top: 50px;
 }
 
+.padding-bottom-hundred {
+    padding-bottom: 100px;
+}
+
+.body-text-center {
+    width: 100%;
+    font-size: 16px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
 /*-------------------- Colors --------------------*/
 
 .color-light-red {
@@ -138,12 +151,30 @@ ul {
 	height: 900px;
 }
 
+.header-about-banner {
+	background: url("../images/about-page-main-banner.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 700px;
+}
+
 
 /*-------------------- Home Sections --------------------*/
 
 .section-home {
     min-height: 600px;
     padding-bottom: 50px;
+}
+
+.section-about-about {
+    background: url("../images/about-page-boxingbag-image.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    width: 100px;
 }
 
 
