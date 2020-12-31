@@ -21,13 +21,21 @@ ul {
 	margin-top: 350px;
 }
 
-.book-free-class {
+.sub-header {
 	font-size: 24px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	color: #fff;
-	text-align: center;
-	margin-top: 100px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.padding-top-hundred {
+    padding-top: 100px;
+}
+
+.padding-top-fifty {
+    padding-top: 50px;
 }
 
 /*-------------------- Colors --------------------*/
@@ -36,6 +44,9 @@ ul {
 	color: #f79a8b;
 }
 
+.bgrd-color-dgrey {
+    background-color: #151515;
+}
 
 /*-------------------- Navigation --------------------*/
 
@@ -55,7 +66,8 @@ ul {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	padding-top: 20px;
+    padding-top: 20px;
+    z-index: 99;
 }
 
 .nav-link {
@@ -127,6 +139,59 @@ ul {
 }
 
 
+/*-------------------- Home Sections --------------------*/
+
+.section-home {
+    min-height: 600px;
+    padding-bottom: 50px;
+}
+
+.home-image-container {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute; 
+    top: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 390px;
+    height: 300px;
+    transition: .5s ease;
+    opacity:1;
+    color:#000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.home-image-container:hover .image-overlay {
+  opacity: 0;
+}
+
+.image-overlay img {
+    height: 130px;
+    margin: 60px 0px 40px;
+}
+
+.home-discipline-text {
+    max-width: 390px;
+    font-size: 16px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.read-more {
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: #fff;
+}
+
+
 /*-------------------- Buttons --------------------*/
 
 .btn-join {
@@ -160,8 +225,9 @@ footer {
     background-color: #333;
     font-size: 13px;
 	font-family: 'Roboto Slab', serif; 
-	font-weight: 600;
+	font-weight: 400;
     color: #aaa;
+    padding-top: 25px;
 }
 
 .footer-nav-link {
@@ -248,4 +314,23 @@ i {
         line-height: 60px;
         padding-top: 25px;
 	}
+}
+
+@media screen and (max-width: 460px) {
+    .image-overlay,
+    .home-image img {
+        width: 290px;
+        height: 223px;
+    }
+    .image-overlay img {
+        height: 90px;
+        margin: 40px 0px 20px;
+    }
+
+    .home-discipline-text {
+        max-width: 290px;
+    }
+    .image-overlay {
+        font-size: 24px;
+    }
 }
