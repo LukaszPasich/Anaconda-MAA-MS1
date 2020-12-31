@@ -8,7 +8,7 @@ li {
 }
 
 ul {
-	text-align: right;
+    text-align: right;
 }
 
 .headline-main-banner {
@@ -32,6 +32,10 @@ ul {
 }
 .padding-top-hundred {
     padding-top: 100px;
+}
+
+.padding-top-twentyfive {
+    padding-top: 25px;
 }
 
 .padding-top-fifty {
@@ -63,7 +67,7 @@ ul {
     width: 100%;
     font-size: 16px;
 	font-family: 'Roboto Slab', serif; 
-	font-weight: 100;
+	font-weight: 300;
     color: #fff;
     text-align: center;
 }
@@ -72,10 +76,19 @@ ul {
     width: 100%;
     font-size: 16px;
 	font-family: 'Roboto Slab', serif; 
-	font-weight: 100;
+	font-weight: 300;
     color: #fff;
     text-align: left;
 }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.body-text-weightnormal {
+    font-weight: 400;
+}
+
 
 /*-------------------- Colors --------------------*/
 
@@ -83,14 +96,23 @@ ul {
 	color: #f79a8b;
 }
 
+.color-dark-red {
+    color: #9f1323;
+}
+
 .bgrd-color-dgrey {
     background-color: #151515;
+}
+
+.color-ashblack {
+    color: #151515;
 }
 
 /*-------------------- Navigation --------------------*/
 
 .nav-links-horizontal {
-	padding: 50px 0px;
+    padding: 50px 0px;
+    margin-bottom: 0px;
 }
 
 .nav-links-vertical {
@@ -186,6 +208,15 @@ ul {
 	height: 700px;
 }
 
+.header-classes-banner {
+	background: url("../images/classes-page-main-banner.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 700px;
+}
+
 
 /*-------------------- Sections --------------------*/
 
@@ -249,7 +280,7 @@ ul {
     max-width: 390px;
     font-size: 16px;
 	font-family: 'Roboto Slab', serif; 
-	font-weight: 100;
+	font-weight: 300;
     color: #fff;
     text-align: center;
 }
@@ -263,6 +294,37 @@ ul {
     color: #fff;
 }
 
+.color-dark-red.read-more:hover {
+    color:#f79a8b;
+}
+
+.classes-group {
+    font-size: 16px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 300;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 5px;
+    margin-right:15px;
+}
+
+.classes-levels {
+    font-size: 16px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 300;
+    color: #fff;
+    text-align: center;
+    background-color: #9f1323;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.opacity-thirtyfive {
+    opacity: .35;
+}
 
 /*-------------------- Buttons --------------------*/
 
@@ -408,13 +470,15 @@ i {
 }
 
 @media screen and (min-width: 1201px) {
-	.rwd-kickboxingimage-phonetablet {
+    .rwd-kidsclassesimage-phonetablet,
+    .rwd-kickboxingimage-phonetablet {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 1200px) {
-	.rwd-kickboxingimage-desktop {
+    .rwd-kidsclassesimage-desktop,
+    .rwd-kickboxingimage-desktop {
 		display: none;
-	}
+    }
 }
