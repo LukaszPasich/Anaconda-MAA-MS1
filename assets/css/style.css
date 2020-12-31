@@ -1,4 +1,4 @@
-/*-------------------- Text --------------------*/
+/*-------------------- General --------------------*/
 li {
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
@@ -53,6 +53,10 @@ ul {
 .side-padding-zero {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.margin-top-twentyfive {
+    margin-top: 25px;
 }
 
 .body-text-center {
