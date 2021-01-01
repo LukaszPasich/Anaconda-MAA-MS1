@@ -254,6 +254,15 @@ ul.nav-links-vertical {
 	height: 700px;
 }
 
+.header-coaches-banner {
+	background: url("../images/coaches-page-main-banner.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 700px;
+}
+
 
 /*-------------------- Sections --------------------*/
 
@@ -274,7 +283,7 @@ ul.nav-links-vertical {
 
 /*
 ============================================
-                 COPIED CODE
+                COPIED CODE
 ============================================
 */
 /* - Home page - overlay hover effect on 3 images (BJJ, Kickboxing and Boxing) - the code below downloaded from www.w3schools.com website (https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) */
@@ -309,7 +318,7 @@ ul.nav-links-vertical {
 
 /*
 ============================================
-                 END OF COPIED CODE
+                END OF COPIED CODE
 ============================================
 */
 
@@ -444,6 +453,65 @@ ul.nav-links-vertical {
     margin-bottom: 30px;
     margin-top: -10px;
 }
+
+.coaches-image {
+    border-radius: 50%;
+}
+
+.coaches-bio {
+    max-width: 390px;
+    font-size: 16px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 300;
+    text-align: center;
+}
+
+.coaches-name {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.coaches-discipline {
+    color: #f7243c;
+    font-weight: 400;
+}
+
+.coaches-info {
+    color: #fff; 
+}
+
+/*
+============================================
+                COPIED CODE
+============================================
+*/
+/* - Zoom effect on hover over coaches images - the code below taken from www.w3bits.com website (https://w3bits.com/css-image-hover-zoom/) */
+
+.img-hover-zoom {
+  height: 390px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 7px solid #222;
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+    -webkit-transition: transform 1s ease;
+    -moz-transition: transform 1s ease;
+    -o-transition: transform 1s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/*
+============================================
+                END OF COPIED CODE
+============================================
+*/
+
 
 /*-------------------- Buttons --------------------*/
 
@@ -623,6 +691,7 @@ i {
         width: 290px;
         height: 223px;
     }
+
     .image-overlay img {
         height: 90px;
         margin: 40px 0px 20px;
@@ -647,5 +716,16 @@ i {
     .rwd-kidsclassesimage-desktop,
     .rwd-kickboxingimage-desktop {
 		display: none;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .coaches-image,
+    .img-hover-zoom {
+        width: 100%;
+        height: auto;
+    }
+    .img-hover-zoom:hover img {
+  transform: scale(1);
     }
 }
