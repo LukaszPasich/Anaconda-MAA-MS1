@@ -7,7 +7,8 @@ li {
 	text-transform: uppercase;
 }
 
-ul {
+ul.nav-links-horizontal,
+ul.nav-links-vertical {
     text-align: right;
 }
 
@@ -97,7 +98,6 @@ ul {
     font-weight: 600;
 }
 
-
 /*-------------------- Colors --------------------*/
 
 .color-light-red {
@@ -108,6 +108,18 @@ ul {
     color: #9f1323;
 }
 
+.color-white {
+	color: #fff;
+}
+
+.color-grey {
+	color: #666;
+}
+
+.color-ashblack {
+    color: #151515;
+}
+
 .bgrd-color-dgrey {
     background-color: #151515;
 }
@@ -116,8 +128,12 @@ ul {
     background-color: #ddd;
 }
 
-.color-ashblack {
-    color: #151515;
+.bgrd-color-dred {
+    background-color: #9f1323;
+}
+
+.bgrd-color-white {
+    background-color: #fff;
 }
 
 /*-------------------- Navigation --------------------*/
@@ -377,6 +393,58 @@ ul {
     margin-bottom: 0;
 }
 
+.membership-prices-box {
+    text-align: center;
+    margin: 10px;
+    padding: 30px 5px 40px;
+    margin-bottom: 50px;
+}
+
+.membership-name {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 500;
+   font-size: 24px;
+   margin-bottom: 0;
+}
+
+.membership-forwho {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.membership-whatclasses {
+    height: 75px;
+}
+
+.membership-whatclasses-list {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: none;
+    text-align: left;
+}
+
+.membership-price {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 0;
+    line-height: 60px;
+}
+
+.membership-euro {
+    font-size: 30px;
+}
+
+.membership-period {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
 /*-------------------- Buttons --------------------*/
 
 .btn-join {
@@ -402,6 +470,51 @@ ul {
 	color: #fff;
 }
 
+.btn-getstarted-red {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	border-radius: 25px;
+	background-color: #f7243c;
+	padding: 10px 20px;
+	-webkit-transition: background-color 0.5s ease;
+  	-moz-transition: background-color 0.5s ease;
+ 	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
+
+.btn-getstarted-red:hover {
+	background-color: #9f1323;
+	color: #fff;
+}
+
+.btn-getstarted-white {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #9f1323;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	border-radius: 25px;
+	background-color: #fff;
+	padding: 10px 20px;
+	-webkit-transition: background-color 0.5s ease;
+  	-moz-transition: background-color 0.5s ease;
+ 	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
+
+.btn-getstarted-white:hover {
+	background-color: #ccc;
+	color: #9f1323;
+}
 
 /*-------------------- Footer --------------------*/
 
