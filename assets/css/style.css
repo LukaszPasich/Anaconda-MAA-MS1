@@ -63,6 +63,10 @@ ul {
     margin-top: 25px;
 }
 
+.margin-bottom-twentyfive {
+    margin-bottom: 25px;
+}
+
 .body-text-center {
     width: 100%;
     font-size: 16px;
@@ -87,6 +91,10 @@ ul {
 
 .body-text-weightnormal {
     font-weight: 400;
+}
+
+.body-text-weightbold {
+    font-weight: 600;
 }
 
 
@@ -221,6 +229,15 @@ ul {
 	height: 700px;
 }
 
+.header-times-banner {
+	background: url("../images/times&prices-page-main-banner.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 700px;
+}
+
 
 /*-------------------- Sections --------------------*/
 
@@ -328,6 +345,36 @@ ul {
 
 .opacity-thirtyfive {
     opacity: .35;
+}
+
+.about-schedule-slot {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.about-schedule-time {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.about-schedule-discipline {
+    font-size: 16px;
+    color: #f7243c;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.about-schedule-class {
+    font-size: 14px;
+    color: #151515;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 /*-------------------- Buttons --------------------*/
@@ -446,12 +493,15 @@ i {
 	}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	.footer-social-icons {
         border-top: 1px solid #aaa;
         line-height: 60px;
         padding-top: 25px;
-	}
+    }
+    .rwd-display-none {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 460px) {
