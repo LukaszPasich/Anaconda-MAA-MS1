@@ -509,6 +509,10 @@ ul.nav-links-vertical {
     font-weight: 400;
 }
 
+.coaches-discipline:hover {
+    color: #f7243c;
+}
+
 .coaches-info {
     color: #fff; 
 }
