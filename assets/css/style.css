@@ -35,6 +35,10 @@ ul.nav-links-vertical {
     padding-top: 100px;
 }
 
+.padding-top-ten {
+    padding-top: 10px;
+}
+
 .padding-top-twentyfive {
     padding-top: 25px;
 }
@@ -58,6 +62,16 @@ ul.nav-links-vertical {
 .side-padding-zero {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.padding-side-twenty {
+    margin-left: 20px;
+    margin-right: 20px;     
+}
+
+.padding-side-ten {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .margin-top-twentyfive {
@@ -97,6 +111,15 @@ ul.nav-links-vertical {
 .body-text-weightbold {
     font-weight: 600;
 }
+
+.font-roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.font-size-thirteen {
+    font-size: 13px;
+}
+
 
 /*-------------------- Colors --------------------*/
 
@@ -256,6 +279,15 @@ ul.nav-links-vertical {
 
 .header-coaches-banner {
 	background: url("../images/coaches-page-main-banner.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 700px;
+}
+
+.header-contact-banner {
+	background: url("../images/contact-page-main-banner.jpg") no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -503,7 +535,7 @@ ul.nav-links-vertical {
 }
 
 .img-hover-zoom:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /*
@@ -511,6 +543,42 @@ ul.nav-links-vertical {
                 END OF COPIED CODE
 ============================================
 */
+
+form {
+    margin-left: 25px;
+    margin-right: 25px;     
+}
+
+.input-label,
+.input-radio-label {
+    font-family: 'Roboto Slab', serif;
+    color: #666;
+    font-size: 14px;
+}
+
+.input-label {
+    font-family: 'Roboto Slab', serif;
+    color: #666;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+textarea,
+input[type='text'],
+input[type='email'] {
+    border-radius: 15px;
+    border: 1px solid #666;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+
+textarea {
+    min-height: 200px;
+}
 
 
 /*-------------------- Buttons --------------------*/
@@ -584,6 +652,14 @@ ul.nav-links-vertical {
 	color: #9f1323;
 }
 
+.submit-button {
+    display: inline-block;
+    min-width: 150px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 10px;;    
+}
+
 /*-------------------- Footer --------------------*/
 
 footer {
@@ -641,7 +717,6 @@ i {
     font-size: 12px;
     border-top: 1px solid #aaa;
 }
-
 
 /*-------------------- Media Querries --------------------*/
 
