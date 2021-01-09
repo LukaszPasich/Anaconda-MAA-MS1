@@ -78,6 +78,10 @@ ul.nav-links-vertical {
     margin-top: 25px;
 }
 
+.margin-top-fifty {
+    margin-top: 50px;
+}
+
 .margin-bottom-twentyfive {
     margin-bottom: 25px;
 }
@@ -584,6 +588,24 @@ textarea {
     min-height: 200px;
 }
 
+iframe {
+    border-radius: 15px;
+}
+
+.contact-form-toppadding {
+    padding-top: 50px;
+}
+
+.thank-you {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #151515;
+    text-transform: none;
+    text-align: center;
+    padding: 75px 25px 25px;
+
+}
 
 /*-------------------- Buttons --------------------*/
 
@@ -762,6 +784,16 @@ i {
     .rwd-display-none {
         display: none;
     }
+    .google-maps-desktop {
+        display: none;
+    }
+    .contact-form-toppadding {
+        padding-top: 20px;
+    }
+    iframe {
+    border-radius: 0px;
+    margin-top: 10px;
+}
 }
 
 @media screen and (max-width: 460px) {
@@ -806,5 +838,11 @@ i {
     }
     .img-hover-zoom:hover img {
   transform: scale(1);
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .google-maps-phone {
+        display: none;
     }
 }
