@@ -374,3 +374,37 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 [Back to top](#contents)
 
 ---
+
+
+
+
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com).
+2. At the top of the Repository, locate the _Settings_ button on the menu and click on it.
+
+<img src="assets/images_readme/ms1-readme-deployment-one.png" alt="Anaconda MAA website - deployment instructions">
+
+3. Scroll down the Settings page until you locate the _GitHub Pages_ section.
+
+4. Under _Source_, click the dropdown called _None_ and select _Master Branch_.
+
+<img src="assets/images_readme/ms1-readme-deployment-two.png" alt="Anaconda MAA website - deployment instructions">
+
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the _GitHub Pages_ section.
+
+<img src="assets/images_readme/ms1-readme-deployment-three.png" alt="Anaconda MAA website - deployment instructions">
+
+7. The project has been now deployed - the link can be opened in the browser.
+
+
+[Back to top](#contents)
+
+---
