@@ -2,7 +2,7 @@
 
 _Anaconda_ Martial Arts Academy is a local school of martial arts located in Dublin 15, that teaches a combination of disciplines necessary to become a Mixed Martial Artist.
 The goal of the academy however is not to train competition ready athletes but to help their members to get active and fit and receive all benefits of martial arts training, including building self-esteem and confidence.
-The classes tought in the academy are: Brazilian Jiu Jitsu, Kickboxing and Boxing and also MMA for the more advanced students.
+The classes tought in the academy are: Brazilian Jiu-Jitsu, Kickboxing and Boxing and also Mixed Martial Arts for the more advanced students.
 Members can practice one chosen discipline or get involved with the whole MMA suite of disciplines.
 The school accepts new members across all ages (in BJJ classes, kids can start as early as the age of 4) and various skill levels from Beginners to Advanced.
 As 'Anaconda' academy is growing in members, they want to redesign their existing website and bring it up to todays standards in terms of look, responsiveness, user experience and SEO.
@@ -81,19 +81,19 @@ As 'Anaconda' academy is growing in members, they want to redesign their existin
 1. As a user of the website I want the information to be laid out clearly, visually structured in a way that makes sense, so that I am not confused by it and put off from using the website.
 2. As a user of the website I want it to be easy to navigate, so that I can find what I'm looking for easily. 
 3. As a novice to martial arts, I would like to find out what skill levels the school caters for, so that I'm encouraged to start the training and won't feel intimidated.
-4. As someone with previous experience in martial arts, I want to make sure that the school provides training in the full suit of Mixed Martial Art disciplines
+4. As someone with previous experience in martial arts, I want to make sure that the school provides training in the full suit of Mixed Martial Arts disciplines
 and that instructors are experienced and at a high level of competency, so that I could potentially get to the competing level in the Mixed Martial Arts.
 5. As a parent of a primary school age child, I want to find out if the school provides classes for different age groups, to make sure that my child could train with the peers at the similar level of development.
-6. As a busy working adult who would like to start the training, I expect to find a time table of classes, to make sure first of all that it's is possible for me to attend the classes time-wise before I get in touch and start the process of becoming a member.
+6. As a busy working adult who would like to start the training, I expect to find a time table of classes, to make sure first of all that it is possible for me to attend the classes time-wise before I get in touch and start the process of becoming a member.
 7. As a person who needs to budget carefully, I would like to know upfront the membership prices, so that I can make a decision based on that piece of information first, before I engage with the academy and start the process of becoming a member.
 8. As a user accessing this site from a mobile phone or tablet, I want the site to be responsive, so that it is easy to navigate and use on smaller devices.
 9. As a potential member trying to get in touch with the academy, I expect some sort of feedback or acknowledgement of my online query, so that I know it has been received by the school and I can expect it is being processed.
-10. As a returning visitor, I expect to be able to check if the times of the classes have changed, look up information about the new instructors and be able to find the social media links to check for new posts, images and videos published bt the school.
+10. As a returning visitor, I expect to be able to check if the times of the classes have changed, look up information about the new instructors and be able to find the social media links to check for new posts, images and videos published by the school.
 
 ### Project Scope
  Creating the website for _Anaconda_ Martial Arts Academy with the goal of attracting new members to the academy.
  The website should consist of 3-6 pages, making sure that it is clean looking, easy to navigate and responsive.
- An invitation to a introductory, free and no commitment session should be a prominent and (reasonably) frequently repeated element of the website.
+ An invitation to an introductory, free and no commitment session should be a prominent and (reasonably) frequently repeated element of the website.
  The following information must be included: some information about the school, information about the classes, classes timetable and membership prices.
  The culmination of the interaction with the website is the _Contact_ page, where users (potential new members) need to be able to find enough information,
  so that they could get in touch with the school through various channels (physical address, email address, telephone, social media channels, contact form).
@@ -102,7 +102,7 @@ and that instructors are experienced and at a high level of competency, so that 
 
 #### Site Map
 The website is simple enough that I chose a hierarchical tree structure for it.
-It is a standard structure with reduced complexity and any down sides this type of structure might have for mobile phone use are mitigated by the fact that each branch in this case is only one page long.
+It is a standard structure with reduced complexity and any down sides this type of structure might have for mobile phone use are mitigated by the fact that each branch in this case is only one page deep.
 <img src="assets/images_readme/ms1-readme-ux-sitemap.jpg" alt="Anaconda MAA website site map">
 
 #### User Flow
@@ -110,18 +110,18 @@ The flow has been designed with visitors landing at the _Home_ page first in min
 There is a possibility of visitors arriving to different pages first from social media links (through 'meet the new coach' or 'see our new times for kickboxing classes' types of posts) but navigating the website in those cases should still be simple enough.
 
 __Navbar links__ connect all pages apart from _Home_ page.
-To simplify the interaction I decided not to link _Home_ page there as it only acts as a nice landing, introduction page but it doesn't have any more information that visitors wouldn't find on other pages.
+To simplify the interaction I decided not to link _Home_ page there as it only acts as a nice landing, introduction page but it doesn't have any more information that visitors wouldn't otherwise find on other pages.
 _Home page_ is still accessible by clicking on the logo or the link in the footer for visitors who are resolved to see it again. 
 
 __Internal links__ connect some pages to create simple and logical user flow mini routes:
 - User mini route 1 - About Martial Arts discipline:
 	- _Home_ page -> read more about chosen martial art (takes visitor to _About_ page)
-	- _About_ page: details about the martial art -> read about instructors (takes visitor to _Coaches_ page)
-	- _Coaches_ page: details about instructors (a back-link to read about disciplines on _About_ page is here)
+	- _About_ page: details about the martial art -> read about the instructor (takes visitor to _Coaches_ page)
+	- _Coaches_ page: details about instructor (a link back to read about the particular discipline on _About_ page is here)
 
 - User mini route 2 - About Classes:
-	-  _Classes_ page: details about classes' age groups and skill levels -> find out times for the class you'd like to take (takes visitor to _Times & Prices_ page)
-	- _Times & Prices_ page: details a about the class times
+	-  _Classes_ page: information about age groups and skill levels -> find out times for the class you'd like to take (takes visitor to _Times & Prices_ page)
+	- _Times & Prices_ page: information about class times
 	
 __'Join our academy' call to action button__ creates direct link to _Contact_ page for visitors who are decided to go to the next step towards becoming a member.
 
@@ -148,7 +148,7 @@ Why Anaconda?
 
 
 The martial art of Brazilian Jiu-Jitsu - one of the staples of the academy - is in essence the skill of grappling, holding and taking down the opponent to then force them into submission via joint lock or chokehold.
-This very much resembles the actions of a constrictor snake and one of the submissions in BJJ is even called an _Anaconda Choke_. As grappling has become one of the key weapons in Mixed Martial Artist's arsenal, Brazilian Jiu-Jitsu became near synonymous with MMA and that's why I thought it was a good name for the Martial Arts Academy.
+This very much resembles the actions of a constrictor snake and one of the submissions in BJJ is even called an _Anaconda Choke_. As grappling has become one of the key weapons in Mixed Martial Artist's arsenal, Brazilian Jiu-Jitsu became near synonymous with MMA and that's why I thought it was a good name for this Martial Arts Academy.
 
 #### Logo
 With the logo I was trying to emulate the classic idea of the Martial Arts Club badge which seems to have always evolved around some related image or an Asian symbol enclosed in a circle (or lately popular octagon), with the club name and all the necessary text wrapped around that circle.
@@ -164,7 +164,7 @@ Principally white, red and black colour palette - these three colors are the fir
 With black and white representing the concept of dualism, describing how seemingly opposite or contrary forces may actually be complementary, interconnected, and interdependent in the natural world, and the red colour being universally seen as a sign of both life and aggression - 
 the 3 colours have always been used in martial arts themes.
 
-In my research of the competitor's websites, I discovered that these were the prevalent colours on all of those websites and the similar colour theme would also be possibly expected by the website user/ visitor, adding credibility to the brand, company and the website. 
+In my research of the competitor's websites, I discovered that these were the prevalent colours on all of those websites and the similar colour theme would also be possibly expected by the website user/ visitor. Meeting this expectation adds credibility to the brand, company and the website. 
 
 
 <img src="assets/images_readme/ms1-readme-ux-colours.jpg" alt="Anaconda MAA website colours">
@@ -214,7 +214,7 @@ There is no effect for active navigation link, I decided that the headline of th
 Hover effect on links on the other hand was important from the perspective of good UX.
 
 The Navigation bar's position is fixed to allow for quick navigation between pages and to avoid using _back to top_ button.
-The bar's opacity is set to 75% (0.75), so that any content that might obscured by it can be still visible (or at least possible to make out).
+The bar's opacity is set to 75% (0.75), so that any content that might be obscured by it can be still visible (or at least possible to make out).
 
 For narrow screens/ viewport sizes, the navigation links change from inline to stacked formation.
 
@@ -225,7 +225,7 @@ For narrow screens/ viewport sizes, the navigation links change from inline to s
 ### Footer
 The footer contains information (starting from the left):
 - Logo - a black & white reversed version; appears right beside contact details (where it would be normally expected) but only on the widest screen size (over 1400px) as the space allows for it.
-The logo disappears on the smaller screen/ viewport sizes to allow other elements of the footer to create a nicer and more organised structure.
+The logo disappears on the smaller screen/ viewport sizes to allow for other elements of the footer to create a nicer and more organised structure.
 Because the logo is also always present on the screen in the fixed position Navbar, the disappearance of the logo from the footer is not really an issue.
 - Contact details - a physical address, phone number and email address of the business.
 - Opening times
@@ -252,7 +252,7 @@ Returning to the _Home_ page is only possible via clicking on the logo or the na
 <img src="assets/images_readme/ms1-readme-features-home.png" alt="Anaconda MAA website - Home page">
 
 ### About Page
-The _About_ page, features smaller than _Home_ page main banner (like all the other pages). It contains couple of paragraphs about Anaconda Martial Arts Academy and a small section devoted to each of the martial arts disciplines taught at the school.
+The _About_ page, features smaller than _Home_ page main banner (smaller size banner also features on the rest of the pages). The page contains couple of paragraphs about Anaconda Martial Arts Academy and a small section devoted to each of the martial arts disciplines taught at the school.
 Each of those sections has __'Join Our Academy'__ call to action button and an additional link to _Coaches_ page inviting visitors to get some information about the Instructor for the particular discipline.
 
 <img src="assets/images_readme/ms1-readme-features-about.png" alt="Anaconda MAA website - About page">
@@ -265,7 +265,7 @@ This makes the user flow of checking the suitable age group/ skill level and imm
 <img src="assets/images_readme/ms1-readme-features-classes.png" alt="Anaconda MAA website - Classes page">
 
 ### Times and Prices Page
-This pages' main section is a diagram of a full week (Monday to Saturday), with classes put in the appropriate day of the week by hour slots - 6 day columns by 8 hour rows.
+This pages' main section is a diagram of (nearly) full week (Monday to Saturday), with classes put in the appropriate day of the week by hour slots - 6 day columns by 8 hour rows.
 This diagram presented a bit of a challenge for the responsive design. The full week diagram (6 columns and 8 rows ) can be displayed only on wide screen sizes.
 Once the screen/ viewport size goes below 992px (Bootstrap's grid column large screen size breakpoint), the day columns get stacked on top of each other and empty hour slots (no class taking place at that time) also disappear.
 There is a possibility here for future development, creating a filter that highlights only and all classes in the category determined by the filter.
@@ -280,7 +280,7 @@ In the future, the academy owner would like this button to link directly to onli
 <img src="assets/images_readme/ms1-readme-features-prices.png" alt="Anaconda MAA website - Times & Prices page">
 
 ### Coaches Page
-The _Coaches_ page, offers short bio on three academy instructors, each of the instructors is a specialist in one of the three martial arts taught in the academy.
+The _Coaches_ page, offers short bios on three academy instructors, each of the instructors is a specialist in one of the three martial arts taught in the academy.
 The link from each instructor to the corresponding martial art description on _About_ page (and the link back from a martial art to the corresponding instructor) create an easy user flow where visitors by checking the info about the martial art can quickly find out who is teaching it (and vice-versa).
 There are 'About (Discipline)...' obvious links created with hover effects, but there are also same links created on the red names of each discipline (no hover effect), underneath the names of instructors. I decided to turn those red names into links, when I realised that I felt like clicking on those words in my own user testing.
 
@@ -414,7 +414,8 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 	
 	<img src="assets/images_readme/ms1-readme-testing-mobilefriendly.png" alt="Anaconda MAA website testing - mobile friendly test">
 	
-	- All pages came with _Page loading issue_ warning, but I didn't find any element's on the page affected.
+
+	- All pages came with _Page loading issue_ warning, but I didn't find any element's on any of the page affected.
 	
 ### UX Testing
 #### User Stories Testing
@@ -424,7 +425,7 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 	- The structure of each page is simple: the navigation bar on the top, followed by the main banner clearly stating what page the user is on (the name is unambiguous and the user should be able to know what to expect on the page just from it),
 	below is the main content of the page, with the last thing on the bottom being the footer.
 	- The structure is repeated on all of the pages, therefore it is easy to learn.
-	- Consistent layout, fonts, typography and colours contributes to making visitors quickly comfortable with using the website and getting the information they want.
+	- Consistent layout, fonts, typography and colour scheme contributes to making visitors quickly comfortable with using the website and getting the information they want.
 	- Each piece of information is supported by an image that contributes to better understanding of the context.
 	
 2. As a user of the website I want it to be easy to navigate, so that I can find what I'm looking for easily.
@@ -436,19 +437,19 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 	- Every link in the website with 2 exceptions has a hover action, so that it is clear for the user which elements are links.
 	One of the exceptions is the logo - users don't expect it to have any hover action, yet they generally would expect the logo to link to _Home_ page.
 	The other exception is in the _Coaches_ page, explained [here](#coaches-page), provides for the good UX.
-	- All links have good descriptions or unambiguous look, it is never a mystery for the user where are they going to end up by clicking on link.
+	- All links have good descriptions or unambiguous look, it is never a mystery for the user where are they going to end up by clicking on the link.
 
 3. As a novice to martial arts, I would like to find out what skill levels the school caters for, so that I'm encouraged to start the training and won't feel intimidated.
 
 	- There are very well explained skill levels per each discipline on the _Classes_ page.
 	- The contact form provided on _Contact_ page can be used to find out more information. 
 	
-4. As someone with previous experience in martial arts, I want to make sure that the school provides training in the full suit of Mixed Martial Art disciplines
+4. As someone with previous experience in martial arts, I want to make sure that the school provides training in the full suit of Mixed Martial Arts disciplines
 and that instructors are experienced and at a high level of competency, so that I could potentially get to the competing level in the Mixed Martial Arts.
 
 	- There is a comprehensive information about all disciplines that the academy teaches on the _About_ page.
 	- The _Classes_ page explains the skill levels, the user can also find out that the most advanced members can practice in the MMA classes with all disciplines combined.
-	- There is a good information about instructors on the _Coaches_ page. Instructors' bios include their experience in martial arts as wells as martial arts teaching.
+	- There is a good information about instructors on the _Coaches_ page. Instructors' bios include their experience in martial arts as well as martial arts teaching.
 	- There is a shortcut internal link between information about a particular martial art and the instructor that teaches it (and vice-versa) that is a good solution for this particular user story.
 	- The contact form provided on _Contact_ page can be used to find out more information.
 
@@ -458,7 +459,7 @@ and that instructors are experienced and at a high level of competency, so that 
 	- The image from the kids class in that section also reinforces the message that Anaconda academy accepts children from the very young ages.
 	- The contact form provided on _Contact_ page can be used to find out more information. 
 	
-6. As a busy working adult who would like to start the training, I expect to find a time table of classes, to make sure first of all that it's is possible for me to attend the classes time-wise before I get in touch and start the process of becoming a member.
+6. As a busy working adult who would like to start the training, I expect to find a time table of classes, to make sure first of all that it is possible for me to attend the classes time-wise before I get in touch and start the process of becoming a member.
 
 	- The timetable on the 'Times & Prices' page has a clearly laid out schedule of classes per day/ per hour, with the discipline + age group/ skill level clearly indicated.
 	- Once the user identifies the class they want to participate in (discipline + age group/ skill level) on the _Classes_ page, they will be able to find the class their interested in in the Class Schedule on _Times & Prices_ page.
@@ -479,9 +480,9 @@ and that instructors are experienced and at a high level of competency, so that 
 
 	- The users who have decided to become members have a clear and easy pathway to do so presented for them. Almost every page has a distinctive call to action button for joining the academy. This button is unmissable and leads to the _Contact_ page.
 	- From the _Contact_ page there are few options to get in touch with the academy: physical address, phone number, email and contact form.
-	- The contact form let's the user know which fields are required to fill out and upon the submission of the online form the page with the acknowledgement of query receipt is displayed.
+	- The contact form let's the user know which fields are required to fill out and upon the submission of the online form the page with the acknowledgement of the query receipt is displayed.
 
-10. As a returning visitor, I expect to be able to check if the times of the classes have changed, look up information about the new instructors and be able to find the social media links to check for new posts, images and videos published bt the school.
+10. As a returning visitor, I expect to be able to check if the times of the classes have changed, look up information about the new instructors and be able to find the social media links to check for new posts, images and videos published by the school.
 
 	- Anaconda MAA website will be regularly updated.
 	- The links to the academy's social media channels are in the footer (generally where they would be expected).
@@ -634,14 +635,14 @@ Due to limited access to devices, the website has been only checked on Desktop, 
 
 #### Bugs Fixed
 1.	- PROBLEM (came up as HTML validator error): an ID and FOR attributes must not contain whitespce.
-	- SOLUTION: Making the ID hyphenated removed this error for me from the HTML validator. 
+	- SOLUTION: Replacing the space in ID and FOR values with a hyphen removed this error for me from the HTML validator. 
 
 <img src="assets/images_readme/ms1-readme-testing-bugfixone.png" alt="Anaconda MAA website - bugs fixed">
 
 
 
 2.	- PROBLEM (came up as HTML validator error): element \<div> not allowed as child of element \<h1>.
-	- SOLUTION: I have changed \<h1> into \<div> (\<div> can be a child of \<div> of course), but the downside is that I don't have \<h1> headings anymore, which is probably not the best practice from SEO point of view.
+	- SOLUTION: I have changed \<h1> into \<div> (\<div> can be a child of \<div> of course), but the downside of that is that I don't have \<h1> headings anymore, which is probably not the best practice from SEO point of view.
 I will have to structure my code better for next projects. 
 
 <img src="assets/images_readme/ms1-readme-testing-bugfixtwo.png" alt="Anaconda MAA website - bugs fixed">
@@ -655,14 +656,14 @@ I will have to structure my code better for next projects.
 
 4.	- PROBLEM: I couldn't embed link from google maps on my page using \<iframe>. The screenshot of the error that came up in the Dev Tools in my browser is below.
 I read a bit about 'X-Frame-Options', but decided that this wasn't my level of competence yet and I looked for different solution.
-	- SOLUTION: I used Google Maps generator website, details [here](#code), that ironically gave me an \<iframe> code line (but different, one that worked).
+	- SOLUTION: I used Google Maps generator website, details [here](#code), that ironically gave me an \<iframe> code line (but different one - a one that worked).
 	I was able to feature the google map on the website now and get rid of this problem, however (for the second time irony) this code gave me bunch of errors somewhere else - this is addressed in [Bugs Not Fixed](#bugs-not-fixed) section.
 
 <img src="assets/images_readme/ms1-readme-testing-bugfix4.png" alt="Anaconda MAA website - bugs fixed">
 
 
 5.	- PROBLEM: While testing the links I discovered that I couldn't click on the logo in smaller screen sizes in order to go to _Home_ page (in fact I was clicking on one of the navigation links instead).
-It turned out that the container element of the navigation links was going over the logo (I added the red background to that element to see the problem better, screenshots below).
+It turned out that the container element of the navigation links was going over the logo (I added the red background to that element to demonstrate the problem better, screenshots below).
 As the \<navbar> element itself (black top bar with some transparency) had already some __z-index__ value assigned in order to always stay on the top, the elements inside it didn't want to listen to my __z-index__ requests (I was trying to give the logo a higher __z-index__ than the navigation links).
 	- SOLUTION: The help came from my mentor. I never thought about giving the __z-index__ negative values, but giving the navigation links __z-index: -1;__ value actually sent them underneath the logo.
 
@@ -674,7 +675,7 @@ As the \<navbar> element itself (black top bar with some transparency) had alrea
 6.	- PROBLEM: The hover effect on images of instructors (the subtle zoom-in) has been completely breaking on smaller screen sizes/ devices in all browsers.
 	The circle and the image were scaling at different times. I was trying to remove the classes responsible for the effect at certain media query,
 	but other parts were getting affected and because this was a "borrowed" code I didn't have 100% understanding and control of it.
-	- SOLUTION: After many trials of different things to solve the problem, it occurred to me that I could leave the effect as is but set the __scale: 1;__ on the effect animation at certain media queries, so it basically wouldn't change at all... and it worked!
+	- SOLUTION: After many trials of different things to solve the problem, it occurred to me that I could leave the effect as it was but set it as __transform: scale(1);__ on the effect animation at certain media queries, so it basically wouldn't change at all... and it worked!
 
 <img src="assets/images_readme/ms1-readme-testing-bugfix8.png" alt="Anaconda MAA website - bugs fixed">
 
@@ -691,7 +692,8 @@ I didn't want to touch this code at this time as ultimately it did make the Goog
 2.	- PROBLEM: 18 errors thrown on CSS Validator (screenshot below or results [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flukaszpasich.github.io%2FAnaconda-MAA-MS1%2Ftimes.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)) and it looks like all of them came from bootstrap.
 <img src="assets/images_readme/ms1-readme-testing-bugnotfix4.png" alt="Anaconda MAA website - bugs not fixed">
 
-        In a search for the solution online, I found the comment on [www.reddit.com](https://www.reddit.com/r/bootstrap/comments/ajo5xw/getting_error_while_validating_bootstrapmincss_in/) in the post about the similar problem, the comment read: _"It seems like the validator isn't updated to recognize the new CSS variables feature yet. You're probably fine to ignore any of that if it's coming from the Bootstrap files."_ (screenshot below).
+In a search for the solution online, I found the comment on [www.reddit.com](https://www.reddit.com/r/bootstrap/comments/ajo5xw/getting_error_while_validating_bootstrapmincss_in/) in the post about the similar problem, the comment read: _"It seems like the validator isn't updated to recognize the new CSS variables feature yet. You're probably fine to ignore any of that if it's coming from the Bootstrap files."_ (screenshot below).
+
 <img src="assets/images_readme/ms1-readme-testing-bugnotfix5.png" alt="Anaconda MAA website - bugs not fixed">
 
 
@@ -719,7 +721,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 3. Scroll down the Settings page until you locate the _GitHub Pages_ section.
 
-4. Under _Source_, click the dropdown called _None_ and select _Master Branch_.
+4. Under _Source_, click the dropdown _Branch: None_ and select _Branch: Master_.
 
 <img src="assets/images_readme/ms1-readme-deployment-two.png" alt="Anaconda MAA website - deployment instructions">
 
@@ -770,16 +772,18 @@ The textual content was influenced by or taken from the websites:
 
 ### Code
 - Navigation links hover effect (underline from center) styling - code found on Hover.css website [https://ianlunn.github.io/Hover/#effects](https://ianlunn.github.io/Hover/#effects), (style.css file lines 213-241). 
-- _Home_ page - overlay hover effect on 3 images (BJJ, Kickboxing and Boxing) styling - code found on [https://www.w3schools.com/](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp), (style.css file lines 331-357).
+- _Home_ page - overlay hover effect on 3 images (BJJ, Kickboxing and Boxing) styling - code found on [www.w3schools.com](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp), (style.css file lines 331-357).
 - _Coaches_ page - zoom effect on hover over coaches images styling - code found on [www.w3bits.com](https://w3bits.com/css-image-hover-zoom/) website, (style.css file lines 535-551).
 - _Contact_ page - Google Maps location map code generated on [www.maps.ie](https://www.maps.ie/create-google-map/) Google Maps generator, (contact.html file lines 128-137).
 
 ### Resources
-Websites I have constantly accessed for solutions and questions:
+Websites I have accessed for solutions/ questions and extra resources:
 - [www.w3schools.com](https://www.w3schools.com)
 - [www.stackoverflow.com](https://stackoverflow.com)
 - [www.developer.mozilla.org](https://developer.mozilla.org/en-US/)
 - [www.css.tricks.com](https://css-tricks.com)
+- [How to add a favicon to your website](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html)
+- [Code Institute course content](https://codeinstitute.net/)
 
 ### Acknowledgements
 - Thank you to my mentor __Nishant Kumar__ for his guidance, support and continuous helpful feedback throughout this project.
