@@ -47,10 +47,11 @@ As 'Anaconda' academy is growing in members, they want to redesign their existin
 5. [Deployment](#deployment)
 6. [Credits](#credits)
 	- [Content](#content)
-	- [Media](#images)
+	- [Media](#media)
 	- [Code](#code)
-    - [Resorces](#resources)
+    - [Resources](#resources)
 	- [Acknowledgements](#acknowledgements)
+7. [Contact](#contact)
 
 
 ---
@@ -732,5 +733,67 @@ The project was deployed to GitHub Pages using the following steps...
 
 [Back to top](#contents)
 
+
 ---
 
+
+## Credits
+### Content
+The textual content was influenced by or taken from the websites:
+- [JS Brazilian Jiu-Jitsu](https://www.jsbjj.ie "JS Brazilian Jiu-Jitsu")
+- [Evolve Daily blog](https://evolve-mma.com/blog/4-reasons-boxing-will-make-you-obsessed-to-working-out/ "Evolve Daily blog")
+- [Club Solutions Magazine](https://clubsolutionsmagazine.com/2018/11/7-reasons-kickboxing-classes-schedule/ "Club Solutions Magazine")
+- [Satori BJJ Dublin](https://www.satoribjj.com "Satori BJJ Dublin")
+- [Royal Grappling Academy](https://rga.ie "Royal Grappling Academy")
+
+### Media
+- Home page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/DT3bb-KDAus "www.unsplash.com")
+- Home page BJJ white image - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/NdCixEBtTf0 "www.unsplash.com")
+- Home page kickboxing white image - bu Justin Ng, downloaded from [www.unsplash.com](https://unsplash.com/photos/45tcVh0M3kw "www.unsplash.com")
+- Home page kickboxing icon - by Miguel Angel, downloaded from [www.vecteezy.com](https://www.vecteezy.com/vector-art/93089-woman-and-man-fighting-silhouettes "www.vecteezy.com")
+- Home page boxing white image - by Anastase Maragos, downloaded from [www.unsplash.com](https://unsplash.com/photos/ZUBNPRZsQvk "www.unsplash.com")
+- Home page boxing icon - by yoosillyone, downloaded from [www.vecteezy.com](https://www.vecteezy.com/vector-art/166423-muay-thai-silhouette "www.vecteezy.com")
+- About page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/NdCixEBtTf0 "www.unsplash.com")
+- About page boxing bag image - by Milo Bunnik, downloaded from [www.unsplash.com](https://unsplash.com/photos/lp9GQiQNHqc "www.unsplash.com")
+- About page BJJ image - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/YmNIHXdTfPg "www.unsplash.com")
+- About page kickboxing image - by cottonbro, downloaded from [www.pexels.com](https://www.pexels.com/photo/woman-in-black-shirt-and-black-shorts-carrying-black-leather-shoulder-bag-4754146/ "www.pexels.com")
+- About page boxing image - by Logan Weaver, downloaded from [www.unsplash.com](https://unsplash.com/photos/9D_rUDe7xvA "www.unsplash.com")
+- Classes page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/AsCCBr7J-XM "www.unsplash.com")
+- Classes page kids & teens classes image - by Microgen, downloaded from [www.stock.adobe.com](https://stock.adobe.com/ie/images/martial-arts-training-class-for-children/176854174 "Adobe Stock")
+- Classes page adults classes image - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/YQg2wxJAINQ "www.unsplash.com")
+- Times & Prices page main banner - by Nathan Dumlao, downloaded from [www.unsplash.com](https://unsplash.com/photos/QMhc3D_zwJ0 "www.unsplash.com")
+- Coaches page main banner - by Gantas Vaičiulėnas, downloaded from [www.unsplash.com](https://unsplash.com/photos/rvAcZMqFIkY "www.unsplash.com")
+- Coaches page BJJ coach image - by Jahir Martinez, downloaded from [www.unsplash.com](https://unsplash.com/photos/cVLOqm8sSXc "www.unsplash.com")
+- Coaches page kickboxing coach image - by Michael Uebler, downloaded from [www.unsplash.com](https://unsplash.com/photos/EwnkEPhVym4 "www.unsplash.com")
+- Coaches page boxing coach image - by John Fornander, downloaded from [www.unsplash.com](https://unsplash.com/photos/r79IYSMpu_M "www.unsplash.com")
+- Contact page main banner - by Thao Le Hoang, downloaded from [www.unsplash.com](https://unsplash.com/photos/XeBk0qF77_4 "www.unsplash.com")
+
+### Code
+- Navigation links hover effect (underline from center) styling - code found on Hover.css website [https://ianlunn.github.io/Hover/#effects](https://ianlunn.github.io/Hover/#effects), (style.css file lines 213-241). 
+- _Home_ page - overlay hover effect on 3 images (BJJ, Kickboxing and Boxing) styling - code found on [https://www.w3schools.com/](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp), (style.css file lines 331-357).
+- _Coaches_ page - zoom effect on hover over coaches images styling - code found on [www.w3bits.com](https://w3bits.com/css-image-hover-zoom/) website, (style.css file lines 535-551).
+- _Contact_ page - Google Maps location map code generated on [www.maps.ie](https://www.maps.ie/create-google-map/) Google Maps generator, (contact.html file lines 128-137).
+
+### Resources
+Websites I have constantly accessed for solutions and questions:
+- [www.w3schools.com](https://www.w3schools.com)
+- [www.stackoverflow.com](https://stackoverflow.com)
+- [www.developer.mozilla.org](https://developer.mozilla.org/en-US/)
+- [www.css.tricks.com](https://css-tricks.com)
+
+### Acknowledgements
+- Thank you to my mentor __Nishant Kumar__ for his guidance, support and continuous helpful feedback throughout this project.
+- Tutor Support at Code Institute and the Slack Community for a solution to any question at any time.
+
+[Back to top](#contents)
+
+---
+
+## Contact
+For any queries related to this project, you can contact me at: lukas (dot) zed81 (at) gmail (dot) com.
+
+[Back to top](#contents)
+
+---
+
+## THANK YOU FOR TAKING TIME TO VIEW THIS PROJECT!
