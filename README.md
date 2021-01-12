@@ -413,7 +413,7 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 	
 	<img src="assets/images_readme/ms1-readme-testing-mobilefriendly.png" alt="Anaconda MAA website testing - mobile friendly test">
 	
-	- All pages came with _Page loading issue_ warning - this is addressed in [Bugs Not Fixed](#bugs-not-fixed) section.
+	- All pages came with _Page loading issue_ warning, but I didn't find any element's on the page affected.
 	
 ### UX Testing
 #### User Stories Testing
@@ -680,29 +680,29 @@ As the \<navbar> element itself (black top bar with some transparency) had alrea
 
 #### Bugs not Fixed
 1.	- PROBLEM (came up as HTML validator errors): The \<iframe> code line generated on Google Maps generator gave me 12 errors in the HTML validator (screenshots below).
-I didn't want to touch this code at this time as I wasn't sure what the solution would be, Im suspecting that creating CSS rules for the\<iframe> attributes could solve some of the problems.
+I didn't want to touch this code at this time as ultimately it did make the Google Map work on my website and I wasn't sure what the solution would be, Im suspecting that creating CSS rules for the \<iframe> element could solve some of the problems.
 
-<img src="images/Readme-MS1-bugs-notfixed-one.png" alt="Anaconda MAA website - bugs not fixed">
-<img src="images/Readme-MS1-bugs-notfixed-two.png" alt="Anaconda MAA website - bugs not fixed">
-<img src="images/Readme-MS1-bugs-notfixed-three.png" alt="Anaconda MAA website - bugs not fixed">
-
-
-2.	- PROBLEM: 18 errors thrown on CSS Validator (screenshot below) and it looks like all of them came from bootstrap.
-In a search for the solution online, I found the comment on www.reddit.com in the post about the similar problem, the comment read: _"It seems like the validator isn't updated to recognize the new CSS variables feature yet. You're probably fine to ignore any of that if it's coming from the Bootstrap files."_ (screenshot below).
-
-<img src="images/Readme-MS1-bugs-notfixed-five.png" alt="Anaconda MAA website - bugs not fixed">
-<img src="images/Readme-MS1-bugs-notfixed-six.png" alt="Anaconda MAA website - bugs not fixed">
+<img src="assets/images_readme/ms1-readme-testing-bugnotfix1.png" alt="Anaconda MAA website - bugs not fixed">
+<img src="assets/images_readme/ms1-readme-testing-bugnotfix2.png" alt="Anaconda MAA website - bugs not fixed">
+<img src="assets/images_readme/ms1-readme-testing-bugnotfix3.png" alt="Anaconda MAA website - bugs not fixed">
 
 
-3.	- PROBLEM: The hover effect (subtle zoom-in) on images of instructors on _Coaches_ page is slightly broken in Safari web browser (screenshot below).
+2.	- PROBLEM: 18 errors thrown on CSS Validator (screenshot below or results [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flukaszpasich.github.io%2FAnaconda-MAA-MS1%2Ftimes.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)) and it looks like all of them came from bootstrap.
+<img src="assets/images_readme/ms1-readme-testing-bugnotfix4.png" alt="Anaconda MAA website - bugs not fixed">
 
-<img src="images/Readme-MS1-bugs-notfixed-four.png" alt="Anaconda MAA website - bugs not fixed">
+        In a search for the solution online, I found the comment on [www.reddit.com](https://www.reddit.com/r/bootstrap/comments/ajo5xw/getting_error_while_validating_bootstrapmincss_in/) in the post about the similar problem, the comment read: _"It seems like the validator isn't updated to recognize the new CSS variables feature yet. You're probably fine to ignore any of that if it's coming from the Bootstrap files."_ (screenshot below).
+<img src="assets/images_readme/ms1-readme-testing-bugnotfix5.png" alt="Anaconda MAA website - bugs not fixed">
+
+
+3.	- PROBLEM: The hover effect (subtle zoom-in) on images of instructors on _Coaches_ page is slightly broken in Safari web browser (screenshot below), which must be due to some default browser styles.
+
+<img src="assets/images_readme/ms1-readme-testing-bugnotfix6.png" alt="Anaconda MAA website - bugs not fixed">
 
 
 [Back to top](#contents)
 
 
-
+---
 
 
 ## Deployment
@@ -733,3 +733,4 @@ The project was deployed to GitHub Pages using the following steps...
 [Back to top](#contents)
 
 ---
+
