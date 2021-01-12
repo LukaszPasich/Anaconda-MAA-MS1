@@ -12,7 +12,7 @@ As 'Anaconda' academy is growing in members, they want to redesign their existin
 # Link to live project - [CLICK HERE](https://lukaszpasich.github.io/Anaconda-MAA-MS1/index.html) 
 
 #### Contents
-1. [UX](#UX)
+1. [UX](#ux)
 	- [User Goals (Strategy)](#user-goals)
 	- [Stakeholder Goals (Strategy)](#stakeholder-goals)
 	- [User Stories (Strategy)](#user-stories)
@@ -24,17 +24,17 @@ As 'Anaconda' academy is growing in members, they want to redesign their existin
 2. [Features](#features)
 	- [Navigation Bar](#navigation-bar)
 	- [Footer](#footer)
-	- ['Join Academy' call to action button](#join-academy-call-to-action-button)
+	- ['Join Academy' call to action button](#'join-academy'-call-to-action-button)
 	- [Home Page](#home-page)
 	- [About Page](#about-page)
 	- [Classes Page](#classes-page)
-	- [Times & Prices Page](#times-&-prices-page)
+	- [Times & Prices Page](#times-and-prices-page)
 	- [Coaches Page](#coaches-page)
 	- [Contact Page](#contact-page)
 	- [Contact Form](#contact-form)
 	- [Google Maps Location Map](#google-maps-location-map)
 	- [Favicon](#favicon)
-	- [Features to implement in the future...](#features-to-implement-in-the-future)
+	- [Features to Implement in the Future](#features-to-implement-in-the-future)
 3. [Technologies](#technologies)
 	- [Tools](#tools)
 	- [Libraries](#libraries)
@@ -263,7 +263,7 @@ This makes the user flow of checking the suitable age group/ skill level and imm
 
 <img src="assets/images_readme/ms1-readme-features-classes.png" alt="Anaconda MAA website - Classes page">
 
-### Times & Prices Page
+### Times and Prices Page
 This pages' main section is a diagram of a full week (Monday to Saturday), with classes put in the appropriate day of the week by hour slots - 6 day columns by 8 hour rows.
 This diagram presented a bit of a challenge for the responsive design. The full week diagram (6 columns and 8 rows ) can be displayed only on wide screen sizes.
 Once the screen/ viewport size goes below 992px (Bootstrap's grid column large screen size breakpoint), the day columns get stacked on top of each other and empty hour slots (no class taking place at that time) also disappear.
@@ -330,7 +330,7 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 <img src="assets/images_readme/ms1-readme-features-favicon.png" alt="Anaconda MAA website - favicon">
 
 
-### Features to implement in the future...
+### Features to Implement in the Future
 - Definitely needed in the near future.
 	- Full back-end functionality of the contact form.
 	- Google maps with a marker.
@@ -346,6 +346,30 @@ Favicon won't let the the Anaconda MAA website get lost in the sea of open web b
 		- filter by skill level
 		- filter by class time
 	- Video Gallery
+
+[Back to top](#contents)
+
+---
+
+## Technologies
+### Tools
+- [GitHub](https://github.com) was an IDE used for the project.
+- [GitPod](https://gitpod.io/workspaces/) was used for version control.
+- [Balsamiq](https://balsamiq.com) was used to create low fidelity wireframes.
+- [Adobe XD](https://www.adobe.com/ie/products/xd.html) was used to build the high fidelity prototype.
+- [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the logo and also create/manipulate vector illustration icons and for saving vectors in .svg format.
+- [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) was used to edit, crop and save images.
+- [Adobe InDesign](https://www.adobe.com/ie/products/indesign.html) was used to create some visuals for this _Readme_ file and InDesign's online publish feature was used to store some of those visuals.
+- [Am I Responsive](http://ami.responsivedesign.is) was used to create the images of each page displayed on different screen sizes in this _Readme_ file.
+
+### Libraries
+- [Bootstrap](https://getbootstrap.com/) grids were used in particular to create and maintain the design layout across different screen/viewport sizes and make the website responsive easily.
+- [Google Fonts](https://fonts.google.com) was used for linking _Raleway_ and _Roboto Slab_ fonts to the website.
+- [Font Awesome](https://fontawesome.com) was used for icons in the footer.
+
+### Languages
+- HTML
+- CSS
 
 [Back to top](#contents)
 
